@@ -40,4 +40,4 @@ Inputs for all applications currently available in Airavata can be found <a href
 
 
 ### Application Configuration
-For sample configurations please refer [Admin Tutorials](admin-tutorials.md)
+For sample configurations please refer [Admin Tutorials](quick-start.md)

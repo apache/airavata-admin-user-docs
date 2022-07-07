@@ -28,6 +28,10 @@ theme: readthedocs
 extra_css:
   - css/extra.css
 
+extra_javascript:
+  - js/clipboard.min.js
+  - js/clipboard_init.js
+
 markdown_extensions:
   - toc:
      permalink: 

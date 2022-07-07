@@ -53,7 +53,11 @@ Image: Application Details Tab
     - _Required_: `True`
     - _Required on Command Line_: `True`
     - _metadata_: 
-<div id="target_id">
+
+<button class="btn" data-clipboard-target="#symptoms_exist">
+    Copy to clipboard
+</button>
+<div id="symptoms_exist">
 ```json    
 {
     "editor": {
@@ -92,7 +96,11 @@ Image: Application Details Tab
        - _Required_: `True`
        - _Required on Command Line_: `True`
        - _Metadata_
-<div id="target_id">
+
+<button class="btn" data-clipboard-target="#last_location">
+    Copy to clipboard
+</button>
+<div id="last_location">
 ```json
 {
     "editor": {
@@ -127,7 +135,11 @@ Image: Application Details Tab
        - _Required_: `True`
        - _Required on Command Line_: `True`
        - _Metadata_
-<div id="target_id">
+
+<button class="btn" data-clipboard-target="#crowd_size">
+    Copy to clipboard
+</button>
+<div id="crowd_size">
 ```json 
 {
     "editor": {

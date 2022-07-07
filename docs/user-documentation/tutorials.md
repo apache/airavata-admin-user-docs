@@ -31,7 +31,7 @@ Image: Application Details Tab
 <br></br>
 4. Upon saving the 'Details' users can add 'Interface' and 'Deployment' of the application in respective tabs.
 
-#####Application Interface
+#####Add Application Interface
 
 1. Click on the **Interface** tab.
 <br></br>
@@ -147,3 +147,10 @@ Image: Application Details Tab
 }
 ```
 </div>
+
+#####Add Application Deployment
+1. The Application Deployment is where we add command to execute the computation in a specific remote computational resource.
+
+2. Fro this tutorial, In the Deployment tab, as the _executable path_ add `\executable path`
+
+3. NOTE: This application is purely to demonstrate the application input options and not to actually submit and run on a resource. 

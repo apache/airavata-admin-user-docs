@@ -45,7 +45,7 @@ Image: Application Details Tab
     - _Required on Command Line_: `True`
     
 3. Add the second Application Input
-    - _Name_: Symptoms Exists?
+    - _Name_: Symptoms
     - _Type_: String
     - _Initial Value_: a
     - _Application Argument_: `-s`
@@ -54,10 +54,10 @@ Image: Application Details Tab
     - _Required on Command Line_: `True`
     - _metadata_: 
 
-<button class="btn" data-clipboard-target="#symptoms_exist">
+<button class="btn" data-clipboard-target="#symptoms">
     Copy to clipboard
 </button>
-<div id="symptoms_exist">
+<div id="symptoms">
 ```json    
 {
     "editor": {
@@ -78,7 +78,7 @@ Image: Application Details Tab
                 },
                 {
                     "value": "d",
-                    "text": "loss of smell"
+                    "text": "Loss of Smell"
                  }
             ]
         }

@@ -163,6 +163,12 @@ Image: Application Details Tab
 #####Add Application Deployment
 1. The Application Deployment is where we add command to execute the computation in a specific remote computational resource.
 
-2. Fro this tutorial, In the Deployment tab, as the _executable path_ add `\executable path`
+2. Choose _Expanse_ as the compute resource.
 
-3. NOTE: This application is purely to demonstrate the application input options and not to actually submit and run on a resource. 
+3. For this tutorial, In the Deployment tab, as the _executable path_ add `\executable path`
+
+4. Ignore rest of the fields and save.
+
+5. NOTE: This application is purely to demonstrate the application input options and not to actually submit and run on a resource. 
+<br>For more information refer: <a href="/user-documentation/advance-inputs" target="_blank">Advance Application Inputs</a><br>
+<br></br>

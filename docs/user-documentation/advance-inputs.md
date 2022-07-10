@@ -1,4 +1,4 @@
-# Advanced Applicaton Input Configuration
+## Advanced Application Input Configuration
 
 The Airavata Django Portal supports customization of the user interface used to
 configure an application input. For example, instead of the default text input
@@ -7,24 +7,19 @@ down list of options.
 
 To configure application inputs one needs to provide JSON configuration in the
 **Advanced Input Field Modification Metadata** field of the application input.
-To get there:
 
-1. Select **Settings** from the drop down menu in the header.
-2. You should see the **Application Catalog**. If not, click the gears icon on
-   the left hand side.
-3. Select the application you want to configure by clicking on it.
+1. **Settings** &rarr; **Application Catalog**. If not, click the gears icon on the left hand side.
+3. Select the application you want to add advance input configurations.
 4. Select the _Interface_ tab.
-5. Scroll down to the _Input Field_ that you want to customize then scroll down
-   to the **Advanced Input Field Modification Metadata** text box. This is the
-   field where you will input your JSON configuration. This field will outline
-   in green when the JSON is valid and in red when invalid. See the following
-   screenshot.
+5. Scroll down to the _Input Field_ that you want to customize then scroll down to the **Advanced Input Field Modification Metadata** text box. This is the field where you will input your JSON configuration. This field will outline
+   in green when the JSON is valid and in red when invalid. See the following screenshot.
 
-![Screenshot of Application Interface editor, highlighting the input JSON metadata field](../images/app-input-metadata.png)
+![Screenshot](../images/app-input-metadata.png)
+Image: Advanced Input Field Modification Metadata
 
-## Validation
+### Validation
 
-### Example
+**Example**
 
 ```json
 {
@@ -51,14 +46,12 @@ To get there:
     }
 }
 ```
+<br></br>
+### Dependencies
 
-## Dependencies
+You can hide/show inputs based on the values of other inputs. For example, if the option selected in input A is 'list-of-urls' then you can have input B show a field to upload a file.
 
-You can hide/show inputs based on the values of other inputs. For example, if
-the option selected in input A is 'list-of-urls' then you can have input B show
-a field to upload a file.
-
-### Example
+**Example**
 
 ```json
 {
@@ -79,7 +72,7 @@ a field to upload a file.
 
 ### Checkboxes
 
-#### Example
+**Example**
 
 ```json
 {
@@ -107,7 +100,7 @@ a field to upload a file.
 
 ### Radio Buttons
 
-#### Example
+**Example**
 
 ```json
 {
@@ -135,7 +128,7 @@ a field to upload a file.
 
 ### Selects
 
-#### Example
+**Example**
 
 ```json
 {
@@ -177,7 +170,7 @@ Displays a slider for picking a value between some minimum and maximum value.
 -   _displayFormat.percentage_ - whether to display the value to the user with a
     trailing "%". Defaults to false.
 
-#### Example
+**Example**
 
 ```json
 {
@@ -210,6 +203,7 @@ All of the options of the Slider component, plus:
 -   _delimiter_ - the character to place between the values, for example, ",".
     The default value is a hyphen, "-". This will be placed into the job script.
 
+**Example**
 ```json
 {
     "editor": {
@@ -246,6 +240,7 @@ implement the REST API for returning autocomplete suggestions.
     displayed to the user and a value key which is the value applied to the
     experiment input if selected. For example:
 
+**Example**
 ```json
 {
     "search": "mammal",

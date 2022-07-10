@@ -21,6 +21,7 @@ nav:
   - Gateway Resource Profile: 'user-documentation/gtwy-resource-profile.md'
   - Manage Notices: 'user-documentation/manage-notices.md'
   - Developer Console: 'user-documentation/develop-console.md'
+  - Django Theme Construction: 'user-documentation/django-theme.md'
 - Contact Us: 'contact-us.md'
 
 theme: readthedocs

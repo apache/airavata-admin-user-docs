@@ -5,6 +5,10 @@ The CMS takes care fo the gateway home page, child pages content. <br>
 Gateways are initially deployed with a common base theme, but the gateway admins can re-brand according to their needs.<br>
 In order to change the theme user needs to be in the Admin group.<br>
 
+#####Default Django Theme Update In Details
+
+Django default theme [cms_default_theme.pdf](../img/cms_default_theme.pdf)
+
 ### Instructions on Gateway Theme
 NOTE: For details instructions please refer <a href="https://github.com/apache/airavata-django-portal/blob/master/docs/cms.md" target="_blank"> Github CMS Instructions</a>
 

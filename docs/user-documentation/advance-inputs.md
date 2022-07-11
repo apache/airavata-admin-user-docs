@@ -14,7 +14,7 @@ To configure application inputs one needs to provide JSON configuration in the
 5. Scroll down to the _Input Field_ that you want to customize then scroll down to the **Advanced Input Field Modification Metadata** text box. This is the field where you will input your JSON configuration. This field will outline
    in green when the JSON is valid and in red when invalid. See the following screenshot.
 
-![Screenshot](../images/app-input-metadata.png)
+![Screenshot](../img/detectcovidinput.png)
 Image: Advanced Input Field Modification Metadata
 
 ### Validation
@@ -288,7 +288,7 @@ implement the REST API for returning autocomplete suggestions.
 
 To create the REST API backend needed by the Autocomplete component, first you
 need a create a custom Django app. See
-[Custom Django Apps](../dev/custom_django_app) for more information.
+<a href="https://apache-airavata-django-portal.readthedocs.io/en/latest/tutorial/custom_ui_tutorial/#tutorial-exercise-create-a-custom-django-app" target="_blank"> Custom Django App</a>
 
 Here's a simple implementation of a view function that looks up words in the
 system dictionary file:

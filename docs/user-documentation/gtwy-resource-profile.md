@@ -1,18 +1,7 @@
+## Gateway Resource Profile 
+
 ###### <h6 id="StoreR"><b><u>Register Storage Resource</u></b></h6>
-NOTE: Please note this set of instructions are ONLY for gateways hosted by the user. If not SciGaP admins will do this configuration for you in <a href="https://scigap.org/" target="_blank">SciGaP Portal</a>. <br>
-1. Navigate to Admin Dashboard &rarr; Storage Resource &rarr; Register <br>
-2. Provide <br>
-    - Host Name: sg03.iu.xsede.org<br>
-    - Storage Resource Description: Storage for airavata gateway<br>
-    - Create<br>
-3. In Data Movement Interfaces tab<br>
-    - Click 'Add a new Data Movement Interface'<br>
-    - Select 'SCP' from the list<br>
-    - Select Security Protocol: SSH_KEYS<br>
-    - Alternate SSH Host Name: Leave empty<br>
-    - SSH Port: 22<br>
-    - Add Data Movement Interface<br>
-    
+NOTE: SciGaP admins will do this configuration for you in <a href="https://scigap.org/" target="_blank">SciGaP Portal</a>. <br>    
     
     
 ##### <h5 id="StorePreference">Gateway Resource Profile </h5>

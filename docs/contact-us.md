@@ -6,7 +6,7 @@ We will contact you to discuss your requirement and provide you with the best So
 
 
 For your clarifications, Questions and Suggestions please contact us through
-<a href="http://airavata.apache.org/community/mailing-lists.html" target="_blank">Airavata mailing list</a>
+<a href="https://airavata.apache.org/mailing-list.html" target="_blank">Airavata mailing list</a>
 
 OR
 

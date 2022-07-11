@@ -1,4 +1,4 @@
-##### <h5 id="Notices">Communication with Gateway Users</h5><br>
+## Communication with Gateway Users
 1. Provides a method to notify the gateway user.
 2. When user logs in, a 'Bell' icon will be displayed with the number of unread messages next to Dashboard on top menu bar.
 3. Gateway admin can create these notices with an assigned priority.

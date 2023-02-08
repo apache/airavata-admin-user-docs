@@ -23,6 +23,7 @@ nav:
   - Extended User Profile: 'user-documentation/extended-user-profile.md'
   - Developer Console: 'user-documentation/develop-console.md'
   - Django Theme Construction: 'user-documentation/django-theme.md'
+  - Django Releases: 'user-documentation/django-releases.md'
 - Contact Us: 'contact-us.md'
 
 theme: readthedocs

@@ -31,5 +31,8 @@ More information on <a href="https://apache-airavata-django-portal.readthedocs.i
 <!--The Installation section of the documentation applies to on-premise installation of Apache Airavata. -->
 
 ###Latest on Django Release !
-<b>July release user documentation </b><br>
-1. Coming Soon! 
+####2023 January Release
+1. Extended User Profile (EUP) - <br>
+2. Search using Job ID - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3680" target="_blank">JIRA Ticket</a><br>
+3. Enable view only access to Read-Only-Admin users for EUP configuration. - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3681" target="_blank">JIRA Ticket</a><br>
+

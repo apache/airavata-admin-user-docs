@@ -37,7 +37,7 @@ More information on <a href="https://apache-airavata-django-portal.readthedocs.i
 2.	Print gateway user data full directory path in experiment statistics for each experiment
 3.	Fix: When experiments are cloned and left without a mandatory file, exception is thrown
 
-More <a href="/user-documentation/django-releases/#february-in-progress"  target="_blank">Details</a>
+More <a href="/user-documentation/django-releases"  target="_blank">Details</a>
 
 
 

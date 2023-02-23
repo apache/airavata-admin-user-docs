@@ -1,6 +1,23 @@
-## Developer Console 
+## Django Releases
 
-1. This is for gateway developers (Who should have admin access) can download the properties file to set up local Django Portal development environment.
-
-![Screenshot](../img/devconsole.png)
-Image: Developer Console 
+###2023
+####<h4 id="#February">February - In Progress</h4>
+1.	https://issues.apache.org/jira/browse/AIRAVATA-3682 - Central shared data directory
+    - JIRA Ticket
+    - Documentation
+2.	https://issues.apache.org/jira/browse/AIRAVATA-3687 - Print gateway user data full directory path to experiment statistics
+    - JIRA Ticket
+    - Documentation
+3.	https://issues.apache.org/jira/browse/AIRAVATA-3688  Fix: When experiments are cloned and left without a mandatory file, throws exception
+    - JIRA Ticket
+    - Documentation
+    
+####January  
+1. Extended User Profile (EUP)
+    - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3562" target="_blank">JIRA Ticket</a><br>
+    - <a href="/user-documentation/extended-user-profile" target="_blank"> Documentation </a><br>
+2. Gateway admins search experiments using the Job ID in Experiment Statistics
+       - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3680" target="_blank"> JIRA ticket </a><br>
+       - <a href="/user-documentation/exp-statistics" target="_blank"> Documentation </a><br>
+3. Enable view only access to Read-Only-Admin users for EUP configuration.
+    - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3681" target="_blank">JIRA Ticket</a><br>

@@ -30,9 +30,14 @@ More information on <a href="https://apache-airavata-django-portal.readthedocs.i
 
 <!--The Installation section of the documentation applies to on-premise installation of Apache Airavata. -->
 
-###Latest on Django Release !
-####2023 January Release
-1. Extended User Profile (EUP) - <br>
-2. Search using Job ID - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3680" target="_blank">JIRA Ticket</a><br>
-3. Enable view only access to Read-Only-Admin users for EUP configuration. - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3681" target="_blank">JIRA Ticket</a><br>
+###Django Releases
+####2023
+#####<h5 id="#February">February</h5> 
+1.	The central shared data directory implementation for each gateway
+2.	Print gateway user data full directory path in experiment statistics for each experiment
+3.	Fix: When experiments are cloned and left without a mandatory file, exception is thrown
+
+More <a href="/user-documentation/django-releases/#february-in-progress"  target="_blank">Details</a>
+
+
 

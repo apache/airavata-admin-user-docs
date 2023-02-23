@@ -3,6 +3,10 @@
 ##### Monitor Gateway Traffic
 1. Monitor current gateway experiment and job statuses through Settings &rarr; Experiment Statistics.
 2. Gateway admin can view and filter experiments using this page.
+3. To view individual experiments one can use
+    - Experiment ID search
+    - Job ID search
+    
 3. In **Experiment Statistics** page, by default, the gateway status for last 24 hours will be displayed.
 4. Two buttons, 'Past 24 Hours' and 'Past Week' will group and list the experiments for the selected time.
 5. In order to further filter the experiments use, **Filters**.
@@ -24,6 +28,6 @@
     - Responses from remote resource
 11. **Experiment statistics** is mainly useful to investigate experiments and jobs users report issues.
 
-<ADD>------
+
 ![Screenshot](../img/expstat1.png)
 Image:Experiment Statistics

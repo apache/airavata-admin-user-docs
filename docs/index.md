@@ -9,7 +9,7 @@
 
 ### Django Portal
 - The Django portal, the 'Science Gateway' provides tools and methods to easily integrate with post processing applications and application centric interfaces.
-- Django portal is the users interface to use services available through Apache Airavata Middleware. 
+- Django portal is the users interface to use services available through Apache Airavata Middleware.
 - Django portal mainly has 3 user groups; General User, Read-only- admin user and Admin user
 - This documentation provides step by step instructions on functionality available for general users.
 
@@ -32,12 +32,12 @@ More information on <a href="https://apache-airavata-django-portal.readthedocs.i
 
 ###Django Releases
 ####2023
-#####<h5 id="#February">February</h5> 
+#####<h5 id="#February">February</h5>
 1.	The central shared data directory implementation for each gateway
 2.	Print gateway user data full directory path in experiment statistics for each experiment
 3.	Fix: When experiments are cloned and left without a mandatory file, exception is thrown
 
-More <a href="../user-documentation/django-releases/"  target="_blank">Details</a>
+More [Details](user-documentation/django-releases.md)
 
 
 

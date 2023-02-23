@@ -15,9 +15,10 @@
 ####January  
 1. Extended User Profile (EUP)
     - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3562" target="_blank">JIRA Ticket</a><br>
-    - <a href="/user-documentation/extended-user-profile" target="_blank"> Documentation </a><br>
+    - [Documentation](extended-user-profile.md)
 2. Gateway admins search experiments using the Job ID in Experiment Statistics
        - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3680" target="_blank"> JIRA ticket </a><br>
-       - <a href="/user-documentation/exp-statistics" target="_blank"> Documentation </a><br>
+       - [Documentation](exp-statistics.md)<br>
 3. Enable view only access to Read-Only-Admin users for EUP configuration.
     - <a href="https://issues.apache.org/jira/browse/AIRAVATA-3681" target="_blank">JIRA Ticket</a><br>
+    - [Documentation](extended-user-profile.md)

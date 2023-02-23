@@ -52,7 +52,8 @@ Image:Adding Gaussian16 Details
         - _Required_: `True`
         - _Read Only_: `False` (Why? - this is only meaningful for String, Integer or Float inputs)
         - _User Friendly Description_: Gaussian16 input file specifying desired calculation type, model chemistry, molecular system and other parameters. (This is information to the user at creating job experiment. Optional)
-        - _Advanced Input Field Modification Metadata_: NULL (Why? - This is used mostly for advance string input options. For more information refer: <a href="/user-documentation/advance-inputs" target="_blank">Advance Application Inputs</a>)
+        - _Advanced Input Field Modification Metadata_: NULL (Why? - This is used mostly for advance string input options. For more information refer: [Advance Application Inputs](advance-inputs.md)
+        
 <br>
 NOTE: For this application, only a single input, and its a file. For applications, there can be multiple inputs and different input types, such as String, Integer or multiple files.
     - Provide application outputs</br>

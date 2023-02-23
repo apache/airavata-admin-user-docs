@@ -200,5 +200,5 @@ Image:Create DetectCovid Experiment
 <br></br>
 
 #####<h5 id="more">More Details On...</h5>
-1. <a href="/user-documentation/application-catalog" target="_blank">Creating Applications</a>
-2. <a href="/user-documentation/advance-inputs" target="_blank">Advance Input Options</a>
+1. [Creating Applications](application-catalog.md)
+2. [Advance Input Options](advance-inputs.md)

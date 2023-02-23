@@ -31,7 +31,7 @@ Image: Application Input Configuration
     - Pre and post job conditions
 6. Plus you can set the default queue and its properties for users. You would choose the default queue and add default number of nodes, CPUs and walltime.
 7. This is helpful for general user, as they can just use the default settings.
-8. For more information refer: <a href="/user-documentation/application-catalog" target="_blank">Application Catalog</a><br>
+8. For more information refer: [Application Catalog](application-catalog.md)<br>
    <br>
 <ADD>-
 ![Screenshot](../img/gau16appdeploy.png)

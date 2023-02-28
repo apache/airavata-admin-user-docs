@@ -20,6 +20,7 @@ nav:
   - Group Resource Profile: 'user-documentation/group-resource-profile.md'
   - Gateway Resource Profile: 'user-documentation/gtwy-resource-profile.md'
   - Manage Notices: 'user-documentation/manage-notices.md'
+  - Central Shared Storage Directory: 'user-documentation/central-shared.md'
   - Extended User Profile: 'user-documentation/extended-user-profile.md'
   - Developer Console: 'user-documentation/develop-console.md'
   - Django Theme Construction: 'user-documentation/django-theme.md'

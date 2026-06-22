@@ -53,7 +53,7 @@ Image: Application Details Tab
     - _Type_: String
     - _Initial Value_: Yes
     - _Application Argument_: `-v`
-    - _User Friendly Description_: `Add your Vaccintion Status`
+    - _User Friendly Description_: `Add your Vaccination Status`
     - _Required on Command Line_: `True`
     - _Required_: `True`
     - _Read Only_: `False`
@@ -181,7 +181,7 @@ Image:DetectCovid Checkbox Input
 ```
 </div>
 
-6. In the interface tab, you can also add any output you explicitly wants to  bring back from the remote resource and make available for the gateway users to download, for this tutorial, we will not be adding outputs. 
+6. In the interface tab, you can also add any output you explicitly want to bring back from the remote resource and make available for the gateway users to download, for this tutorial, we will not be adding outputs. 
 7. After you added all the above inputs, the experiment creation page would look like below;
 
 ![Screenshot](../img/detectcovidexp.png)

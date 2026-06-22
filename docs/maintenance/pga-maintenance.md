@@ -25,13 +25,13 @@ OR
         - Compute Resource <br>
 4. You could also use pre-defined selection criteria ('Get Experiments from Last 24 Hours' OR 'Get Experiments from Last Week')<br/>
 5. Once the experiment/s listed click on the 'Check Stats'
-6. Experiment task breakdown is listed and as the admin you could locate which task failed. Advice the gateway user accordingly.
+6. Experiment task breakdown is listed and as the admin you could locate which task failed. Advise the gateway user accordingly.
 
 <b class="blue" id="unavailable">Q2.</b> One of the resources used by my gateway is not available for the day. How to stop user job submissions?
 <br><b class="blue">Answer:</b> To temporarily stop users submitting jobs to a particular resource...<br>
 1. Navigate to AdminDashboard &#8658; Compute Resources (Browse)<br>
 2. Un-check the  'Enabled' box for the specific resource. This disables job submissions for the resource<br>
-3. To enable job submission simply check the box and you are back in track!<br>
+3. To enable job submission simply check the box and you are back on track!<br>
 NOTE: In order to enable disable resources you require super admin rights to the gateway. If not you need to contact SciGaP admins.
 
 <b class="blue" id="GtwyAccessI">Q3.</b> How to upgrade access for a gateway user?
@@ -45,7 +45,7 @@ NOTE: In order to enable disable resources you require super admin rights to the
 <br><b class="blue">Answer:</b> User roles are given through PGA Admin Dashboard. If the roles are set correctly then check pga_config.php<br>
 1. To check the config file use
 <pre><code>vi /var/www/html/airavata-php-gateway/app/config/pga_config.php</code></pre>
-2. Roles attached to users should exists in the config file against correct role attribute type
+2. Roles attached to users should exist in the config file against correct role attribute type
 <pre><code>
         /**
          * Admin Role Name
@@ -63,7 +63,7 @@ NOTE: In order to enable disable resources you require super admin rights to the
 
 NOTE: In order to view and change config file you require access to PGA backend. If not you need to contact SciGaP admins.
 
-<b class="blue" id="Allocation">Q5.</b> I have ran out of allocation for my current community account used in gateway for a resource. What should I do?
+<b class="blue" id="Allocation">Q5.</b> I have run out of allocation for my current community account used in gateway for a resource. What should I do?
 <br><b class="blue">Answer:</b><br> 
 1. If you have another community account you could update the information in Admin Dashboard &#8658; Gateway Profile under Compute Resource Preferences.<br>
 2. Select the resource and modify account information and save.<br>

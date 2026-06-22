@@ -13,7 +13,7 @@
 - Application/tool/code is what you create in the gateway, which will have all the configurations required to execute the actual code in the  remote resource.
 - Configuring an _Application_ is a three step process. You would;
  - First add the main _Details_ of the application
- - Next its the _Interface_, where you would add all the input required to execute application and also the outputs that the gateway should bring back for the user.
+ - Next it's the _Interface_, where you would add all the input required to execute application and also the outputs that the gateway should bring back for the user.
  - Last is the _Deployment_, Which is the place you will add all the commands that are needed to execute the application in the remote resource.
 
 - Gateway admins can;
@@ -30,7 +30,7 @@ NOTE: In order to explain how an application could be added to the gateway, we w
 2. In Details tab:
     - Application Name: _Gaussian16_
     - Application Version: _Gaussian 16:  ES64L-G16RevA.03_ (Optional)
-    - Application Description: Gaussian computes molecular electronic properties using ab inito and dft techniques. Core Count  should be same as %nproc value in the input. (Optional)
+    - Application Description: Gaussian computes molecular electronic properties using ab initio and dft techniques. Core Count  should be same as %nproc value in the input. (Optional)
     - Save
 
 <ADD>------
@@ -41,7 +41,7 @@ Image:Adding Gaussian16 Details
 1. **Settings** &rarr; **Application Catalog** &rarr; **Gaussian16** &rarr; **Interface**
 2. In Interface tab:
     - Set _Enable Archiving Working Directory_ to `True` (Why? - This is set to true when you want to bring back all the files in the remote working directory back to the gateway portal. Caution: Gateway has a size restriction on ARCHIVE. Please contact SciGaP admins for more details.)
-    - Set _Show Queue Settings_ to `False` - This is your gateway preference. If you gateway users are not give the option of changing the queue properties when submitting jobs, you can hide this and have same properties set for all the users.
+    - Set _Show Queue Settings_ to `False` - This is your gateway preference. If your gateway users are not given the option of changing the queue properties when submitting jobs, you can hide this and have same properties set for all the users.
     - Provide Input Fields
         - Click _Add Application Input_
         - _Name_: `Input-File`
@@ -79,7 +79,7 @@ NOTE: For this application, only a single input, and its a file. For application
             </div>
 
         - 2nd output
-            - CLick _Add Application Output_
+            - Click _Add Application Output_
             - _Name_: `Gaussian_Checkpoint_File`
             - _Value_: `*.chk`
             - _Type_: `URI_COLLECTION`
@@ -118,7 +118,7 @@ Image: Gaussian16 Inputs and Outputs
 Image: Gaussian16 Deployment
 
 #####<h5 id="Otherappdetails">Other Application Catalog Details </h5>
-1. An Application can have multiple deployment, each deployment is for each remote resource the gateway wants to submit jobs to.
+1. An Application can have multiple deployments, each deployment is for each remote resource the gateway wants to submit jobs to.
 2. When sharing application, deployment you would only share it with gateway user who you want to use it.
 3. Tip: When you are adding a new application, you can keep it without sharing it with gateway users until you test it. Unshared applications will appear grayed out to gateway uses.
 
